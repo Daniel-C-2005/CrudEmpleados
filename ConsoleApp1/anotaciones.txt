@@ -1,0 +1,26 @@
+﻿crar la tabla y datos de prueba:
+
+-- Crear la tabla Empleados
+CREATE TABLE IF NOT EXISTS Empleados (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nombre TEXT,
+    Apellido TEXT,
+    Edad INTEGER,
+    Cargo TEXT
+);
+
+-- Insertar empleados de prueba
+INSERT INTO Empleados (Nombre, Apellido, Edad, Cargo)
+VALUES ('Juan', 'Pérez', 30, 'Desarrollador'),
+       ('María', 'Gómez', 28, 'Diseñadora'),
+       ('Carlos', 'López', 35, 'Gerente'),
+       ('Laura', 'Hernández', 32, 'Analista'),
+       ('Pedro', 'Martínez', 27, 'Programador'),
+       ('Ana', 'García', 31, 'Consultora'),
+       ('Luis', 'Torres', 29, 'Tester'),
+       ('Sofía', 'Ramírez', 33, 'Ingeniera'),
+       ('Diego', 'Rodríguez', 26, 'Arquitecto'),
+       ('Valentina', 'Flores', 34, 'Especialista');
+
+
+
